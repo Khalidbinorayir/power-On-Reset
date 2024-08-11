@@ -1,0 +1,28 @@
+** sch_path: /home/rga1/por.sch
+.subckt por_pex VDD Va PAD Vb VSS Vout
+*.PININFO Vout:B Vb:B Va:B VDD:B VSS:B PAD:B
+XM1 Va net3 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM2 net7 net7 VSS VSS sky130_fd_pr__nfet_01v8 L=0.3 W=3 nf=1 m=1
+XM3 net5 Va net7 net7 sky130_fd_pr__nfet_01v8 L=0.15 W=36 nf=4 m=1
+XM4 n2 n2 net2 net2 sky130_fd_pr__pfet_01v8 L=5 W=2 nf=1 m=1
+XM5 net2 net2 net1 net1 sky130_fd_pr__pfet_01v8 L=5 W=2 nf=1 m=1
+XM6 net1 net1 VDD VDD sky130_fd_pr__pfet_01v8 L=5 W=2 nf=1 m=1
+XM7 Va net3 n2 n2 sky130_fd_pr__pfet_01v8 L=0.15 W=80 nf=10 m=1
+XM9 net5 Va net6 net6 sky130_fd_pr__pfet_01v8 L=0.15 W=36 nf=4 m=1
+XM10 Va net5 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=10 nf=5 m=1
+x2 net4 VSS VSS VDD VDD net3 sky130_fd_sc_hd__inv_1
+x5 net9 net10 VSS VSS VDD VDD Vout sky130_fd_sc_hd__and2_0
+XM11 net8 Vb VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=12 nf=4 m=1
+XM12 net8 Vb VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=1 nf=1 m=1
+x6 Vb VSS VSS VDD VDD net10 sky130_fd_sc_hd__inv_1
+XM8 net9 net8 VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=1 nf=1 m=1
+XM13 net9 net8 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=80 nf=10 m=1
+XM14 Vb Va VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=5 m=1
+XM15 Vb Va VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM16 Va Vb VDD VDD sky130_fd_pr__pfet_01v8 L=25 W=1 nf=1 m=1
+XR16 PAD net4 VSS sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR1 net6 VDD VSS sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR2 PAD VDD VSS sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+.include /home/rga1/pdk/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.ends
+.end

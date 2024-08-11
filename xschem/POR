@@ -1,0 +1,322 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {}
+V {}
+S {}
+E {}
+L 4 222130 -265620 222280 -265620 {}
+L 4 222280 -265620 222280 -265450 {}
+L 4 222130 -265450 222280 -265450 {}
+L 4 222130 -265620 222130 -265450 {}
+L 4 222410 -265810 222540 -265810 {}
+L 4 222540 -265810 222540 -265660 {}
+L 4 222410 -265660 222540 -265660 {}
+L 4 222410 -265810 222410 -265660 {}
+T {Inv2} 222130 -265620 0 0 0.4 0.4 {}
+T {Inv3} 222410 -265680 0 0 0.4 0.4 {}
+N 222160 -265590 222170 -265590 {
+lab=#net1}
+N 222160 -265510 222170 -265510 {
+lab=#net1}
+N 222160 -265590 222160 -265510 {
+lab=#net1}
+N 222210 -265560 222210 -265540 {
+lab=#net2}
+N 222210 -265640 222210 -265620 {
+lab=#net3}
+N 222210 -265730 222210 -265700 {
+lab=#net4}
+N 222160 -265670 222170 -265670 {
+lab=#net3}
+N 222160 -265670 222160 -265630 {
+lab=#net3}
+N 222160 -265630 222210 -265630 {
+lab=#net3}
+N 222160 -265760 222170 -265760 {
+lab=#net4}
+N 222160 -265760 222160 -265720 {
+lab=#net4}
+N 222160 -265720 222210 -265720 {
+lab=#net4}
+N 222160 -265850 222170 -265850 {
+lab=#net5}
+N 222160 -265850 222160 -265810 {
+lab=#net5}
+N 222210 -265820 222210 -265790 {
+lab=#net5}
+N 222160 -265810 222210 -265810 {
+lab=#net5}
+N 222210 -265550 222300 -265550 {
+lab=#net2}
+N 222430 -265610 222440 -265610 {
+lab=#net6}
+N 222430 -265650 222430 -265610 {
+lab=#net6}
+N 222430 -265650 222480 -265650 {
+lab=#net6}
+N 222480 -265650 222480 -265640 {
+lab=#net6}
+N 222480 -265660 222480 -265650 {
+lab=#net6}
+N 222480 -265740 222480 -265720 {
+lab=#net7}
+N 222430 -265770 222440 -265770 {
+lab=#net2}
+N 222430 -265690 222440 -265690 {
+lab=#net2}
+N 222430 -265770 222430 -265690 {
+lab=#net2}
+N 222300 -265730 222300 -265550 {
+lab=#net2}
+N 222300 -265730 222430 -265730 {
+lab=#net2}
+N 222480 -265730 222540 -265730 {
+lab=#net7}
+N 222580 -265880 222580 -265760 {
+lab=#net8}
+N 222300 -265550 222580 -265550 {
+lab=#net2}
+N 222580 -265700 222580 -265550 {
+lab=#net2}
+N 221850 -265640 221850 -265620 {
+lab=PAD}
+N 222480 -265810 222480 -265800 {
+lab=#net9}
+N 221980 -265550 222030 -265550 {
+lab=#net10}
+N 222110 -265550 222160 -265550 {
+lab=#net1}
+N 221850 -265620 221850 -265550 {
+lab=PAD}
+N 221850 -265550 221920 -265550 {
+lab=PAD}
+N 222480 -265880 222480 -265870 {
+lab=#net8}
+N 221860 -265880 222580 -265880 {
+lab=#net8}
+N 221850 -265880 221850 -265700 {
+lab=#net8}
+N 221850 -265880 221860 -265880 {
+lab=#net8}
+N 222580 -265550 222710 -265550 {
+lab=#net2}
+N 222790 -265550 222880 -265550 {
+lab=#net11}
+N 222880 -265730 222880 -265550 {
+lab=#net11}
+N 222720 -265730 222880 -265730 {
+lab=#net11}
+N 222680 -265700 222680 -265550 {
+lab=#net2}
+N 222680 -265880 222680 -265760 {
+lab=#net8}
+N 222580 -265880 222680 -265880 {
+lab=#net8}
+N 221800 -265550 221850 -265550 {
+lab=PAD}
+N 222880 -265550 222880 -265420 {
+lab=#net11}
+N 221960 -265420 222880 -265420 {
+lab=#net11}
+N 221960 -265420 221960 -265280 {
+lab=#net11}
+N 221960 -265280 222060 -265280 {
+lab=#net11}
+N 222140 -265280 222190 -265280 {
+lab=#net12}
+N 222190 -265300 222190 -265280 {
+lab=#net12}
+N 222190 -265280 222190 -265260 {
+lab=#net12}
+N 222190 -265260 222340 -265260 {
+lab=#net12}
+N 222420 -265260 222560 -265260 {
+lab=#net13}
+N 222190 -265300 222200 -265300 {
+lab=#net12}
+N 222360 -265300 222370 -265300 {
+lab=#net14}
+N 222450 -265300 222460 -265300 {
+lab=#net15}
+N 222540 -265300 222560 -265300 {
+lab=#net16}
+N 222680 -265280 222710 -265280 {
+lab=Vout}
+N 222210 -265980 222240 -265980 {
+lab=GND}
+N 222210 -265920 222210 -265880 {
+lab=#net8}
+C {sky130_fd_pr/pfet_01v8.sym} 222190 -265850 0 0 {name=M1
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222190 -265760 0 0 {name=M2
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222190 -265670 0 0 {name=M3
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222190 -265590 0 0 {name=M4
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222460 -265770 0 0 {name=M5
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222560 -265730 0 0 {name=M6
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 222700 -265730 0 1 {name=M7
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_01v8.sym} 222190 -265510 0 0 {name=M8
+L=0.15
+W=50
+nf=10 
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_01v8.sym} 222460 -265690 0 0 {name=M9
+L=0.15
+W=50
+nf=10
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_01v8.sym} 222460 -265610 0 0 {name=M10
+L=0.15
+W=50
+nf=10 
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/res_high_po.sym} 221850 -265670 0 0 {name=R1
+W=1
+L=1.96
+model=res_high_po
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_high_po.sym} 221950 -265550 1 1 {name=R2
+W=1
+L=1.96
+model=res_high_po
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_high_po.sym} 222480 -265840 0 0 {name=R3
+W=1
+L=1.96
+model=res_high_po
+spiceprefix=X
+mult=1}
+C {sky130_stdcells/inv_1.sym} 222070 -265550 0 0 {name=x1 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222750 -265550 0 0 {name=x2 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/iopin.sym} 221800 -265550 0 1 {name=p1 lab=PAD}
+C {devices/gnd.sym} 222480 -265580 0 0 {name=l1 lab=GND}
+C {devices/gnd.sym} 222210 -265480 0 0 {name=l2 lab=GND}
+C {sky130_stdcells/and2_0.sym} 222620 -265280 0 0 {name=x3 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 222100 -265280 0 0 {name=x4 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222380 -265260 0 0 {name=x5 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222240 -265300 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222320 -265300 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222410 -265300 0 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} 222500 -265300 0 0 {name=x9 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/iopin.sym} 222710 -265280 0 0 {name=p2 lab=Vout}
+C {devices/vsource.sym} 222210 -265950 2 0 {name=V1 value=1.8 savecurrent=false}
+C {devices/gnd.sym} 222240 -265980 0 0 {name=l3 lab=GND}
